@@ -5,7 +5,7 @@
     $the_query = new WP_Query( array(
         'posts_per_page'=> 7,
         'post_type'=>'post',
-        'order' => 'ASC', // add more in here
+        'order' => 'DESC', // add more in here
         'paged' => get_query_var('paged') ? get_query_var('paged') : 1) 
     ); 
 ?>
